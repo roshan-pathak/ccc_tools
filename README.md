@@ -45,7 +45,7 @@ This example uses maps from the numerous pre-cleavage, cleavage intermediate (an
 |0.2794|0.1011|0.2599|0.0857|1|0.0383|
 |0.0325|0.1554|0.0506|0.0444|0.0383|1|
 3. dendrogram.png - hierarchical clustering diagram
-![[Pasted image 20241018220613.png]]
+![](https://i.ibb.co/C1rWNR5/dendrogram.png)
 4. cluster_results.csv - cluster results for set of maps
 |Custom_Name|Cluster_Label|
 |Cleavage Intermediate 1|1|
