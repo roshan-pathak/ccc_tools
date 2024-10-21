@@ -17,14 +17,14 @@ But what if we wanted a quantitative way to compare maps to each other and an au
 The following must be placed in a single directory which you will provide to the script.
 1. A series of .mrc files (your maps).
 2. The script itself.
-3. A .csv file containing the custom name you want to assign to each file. **The header line must read *'original_filename,customname_1'***
+3. A .csv file containing the custom name you want to assign to each file. **The header line must read *'original_filename,custom_name,threshold'***
 	A. An example csv is below:
 ```
-original_filename,custom_name
-filename_1,customname_1
-filename_2,customname_2
-filename_3,customname_3
-filename_4,customname_4
+original_filename,custom_name,threshold
+filename_1,customname_1,0.083
+filename_2,customname_2,0.083
+filename_3,customname_3,0.083
+filename_4,customname_4,0.083
 ```
 *The tool will read the first .csv file it finds in the directory you supply, so make sure that your input csv is the only one in the specified directory.*
 # Script Outputs
